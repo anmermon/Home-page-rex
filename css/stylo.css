@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+html{
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: #F2E8DF;
+}
+header{
+	flex: 0 0 auto;
+	background-color: #223440;
+	height:100px;;
+	padding-top: 1.5rem;
+}
+.contenido-principal{
+	flex: 1 0 auto;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
+.header{
+	font-size: 2rem;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+
+}
+footer{
+	flex: 0 0 auto;
+	background-color: #223440;
+	height: 20%;
+	padding-top: 2rem;
+	color:white;
+}
+
+
+.img-fluid{
+	max-width: 100%;
+	padding-top: 6rem; 
+}
+ul{
+	padding-top: 2rem;
+}
+.complemento{
+	padding-top: 2rem;
+}
+a{
+	text-decoration: none;
+	color:white;
+
+
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color:white;
+}
+#navegacion{
+
+	background-color: #A68D85;
+}
+.navbar-nav{
+	color:black;
+
+
+
+}
+nav{
+	margin-top: 1.5rem;
+}
+.titulo1{
+	margin-bottom: 1rem;
+	
+	color:#8C544F;
+	font-family: 'Impact';
+
+}
+.color{
+	font-family: "Times New Roman";
+	
+}
+.ulfoot{
+	list-style-type: none;
+	font-size: 20px;
+}
+.face{
+	height: 2rem;
+	
+
+}
+.twiter{
+	height: 2rem;
+
+}
+.github{
+	height: 2rem;
+
+}
+.texto1{
+	font-size: 25px;
+	color:#8C544F;
+	/*font-family: 'Mansalva', cursive;*/
+	font-family: 'Acme', sans-serif;
+}
+.texto2{
+	font-size: 17px;
+	font-family: 'Times New Roman';
+}
+.textoul{
+	font-size: 25px;
+}
